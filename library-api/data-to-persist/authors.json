@@ -1,0 +1,67 @@
+[
+    {
+      "name": "Antoine de Saint-Exupéry",
+      "image":"http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcS6Ci_8oamrruJ21f5-qFG7uxg4hWzSgszvCA-5-X8W10S_6HnJnCkZmygYjdvE",
+      "description":"Antoine Marie Jean-Baptiste Roger, comte de Saint-Exupéry, simply known as Antoine de Saint-Exupéry, was a French writer, poet, aristocrat, journalist and pioneering aviator."
+    },
+    {
+      "name": "J. R. R. Tolkien",
+      "image":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRBL_FzuNhgn58lqPgmJa4YqfWEYaV9NXauuCvVTxyhjzWg6AuW",
+      "description":"John Ronald Reuel Tolkien CBE FRSL was an English writer, poet, philologist, and academic, best known as the author of the high fantasy works The Hobbit and The Lord of the Rings. "
+    },
+    {
+      "name": "Paulo Coelho",
+      "image":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQKOnWtqrxRinYcXQKOapXL4uAp6Ict7z3d6ZdBg2zO5JsQ2Wrg",
+      "description":"Paulo Coelho de Souza is a Brazilian lyricist and novelist and a member of the Brazilian Academy of Letters since 2002. "
+    },
+    {
+      "name": "Jacob and Wilhelm Grimm",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/f/ff/Grimm.jpg",
+      "description":"The Brothers Grimm, Jacob and Wilhelm, were German academics, philologists, cultural researchers, lexicographers, and authors who together collected and published folklore."
+    },
+    {
+      "name": "J. K. Rowling",
+      "image":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS3bDP-AbnH7l2pjO-SwJkEFQu9dxDE6V8wyJ_5x_lfkVpTMA80",
+      "description":"oanne Rowling CH OBE HonFRSE FRCPE FRSL, also known by her pen name J. K. Rowling, is a British author and philanthropist. She wrote a seven-volume children's fantasy series, Harry Potter, published from 1997 to 2007."
+    },
+    {
+      "name": "Mikhail Bulgakov",
+      "image":"http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcSMmq6gq9VrvEKFNJ2r4Hi7kEXWedCkm0PqSomOjanMqDJ2PJ6ur2-zIYTbU-Pt",
+      "description":"Mikhail Afanasyevich Bulgakov was a Soviet writer, medical doctor, and playwright active in the first half of the 20th century."
+    },
+    {
+      "name": "Napoleon Hill",
+      "image":"https://lirp.cdn-website.com/174487e2/dms3rep/multi/opt/NAPOLEON-HILL-640w.jpg",
+      "description":"Oliver Napoleon Hill was an American self-help author. "
+    },
+    {
+      "name": "Lewis Carroll",
+      "image":"http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcTpZoYJos85wXFxUsdsxzjLdvpsqv7Iyba_lTw9AQ60r7FkcusLqiK_-pswFGKy",
+      "description":"Charles Lutwidge Dodgson, better known by his pen name Lewis Carroll, was an English author, poet and mathematician."
+    },
+    {
+      "name": "Agatha Christie",
+      "image":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSMkXpILgHZR7LKuGSGnY3zJgLntR4Dk38utUSj3k_k5Nap7U_b",
+      "description":"Dame Agatha Mary Clarissa Christie, Lady Mallowan, DBE was an English writer known for her 66 detective novels and 14 short story collections, particularly those revolving around fictional detectives Hercule Poirot and Miss Marple."
+    },
+    {
+      "name": "Cao Xueqin",
+      "image":"https://secvlary.files.wordpress.com/2012/11/w020071213496075861209.jpg",
+      "description":"Cáo Xuěqín; was a Chinese writer during the Qing dynasty."
+    },
+    {
+      "name": "H. Rider Haggard",
+      "image":"http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcRYjOFN01REQpUROnZRG5-tyZdw0MxDggBtDHh__CTTqnzQKMqCNl-km8EsvROG",
+      "description":"Sir Henry Rider Haggard KBE was an English writer of adventure fiction romances set in exotic locations, predominantly Africa, and a pioneer of the lost world literary genre."
+    },
+    {
+      "name": "Carlo Collodi",
+      "image":"http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcRf7JXkk84NwDSTyQnDre-4_pZbr8Ub74IgHur-8XsVP40yOS756Yjzpxgei4i6",
+      "description":"Carlo Lorenzini, better known by the pen name Carlo Collodi, was an Italian author, humourist, and journalist, widely known for his fairy tale novel The Adventures of Pinocchio."
+    },
+    {
+      "name": "Ved Prakash Sharma",
+      "image":"https://static.toiimg.com/thumb/msid-57223606,width-1200,height-900,resizemode-4/.jpg",
+      "description":"Ved Prakash Sharma was an Indian writer of novels and screenplays in Hindi. He was born in Meerut, Uttar Pradesh, where he completed his graduation from NAS Degree College."
+    }
+  ]
