@@ -3,7 +3,7 @@
 <img src="readme-assets/print.png" alt="Library Web App">
 
 > Aucto Book Library is a ficticial library app that was developed to attend a techinical interview of the company, the project is focused on two steps:
-> A Node.JS (Nejs.JS) backend API, that serve the endpoints to: create, read, update and delete books and authors.
+> A Node.JS (Nest.JS) backend API, that serve the endpoints to: create, read, update and delete books and authors.
 > A web app using React.JS (Next.JS) framework and ChakraUI as the component library.
 
 ### Main Features
@@ -29,23 +29,23 @@ The project should attend some features:
 
 To install <Aucto_Book_Library>, follow this steps:
 
-Linux e macOS:
+Linux and macOS:
 
 library-api
 
 ```
-<cd library-api>
-<yarn> or <npm i>
-<yarn start:dev> or <npm run start:dev>
+cd library-api
+yarn or npm i
+yarn start:dev or npm run start:dev
 after this you can access the api documentation on: http://localhost:3000/
 ```
 
 library-app
 
 ```
-<cd library-app>
-<yarn> or <npm i>
-<yarn dev> or <npm run dev>
+cd library-app
+yarn or npm i
+yarn dev or npm run dev
 after this you can access the api documentation on: http://localhost:3001/
 ```
 
@@ -54,10 +54,10 @@ after this you can access the api documentation on: http://localhost:3001/
 After run <Aucto_Book_Library>, you can use it following this steps:
 
 ```
-<open api from localhost:3000>
-<open app from localhost:3001>
-<you can use the basic endpoints and insert the data directly from api landing page, using swagger>
-<if you need initial data to persist into the database, you can acces it inside library-api/data-to-persist/>
+open api from localhost:3000
+open app from localhost:3001
+you can use the basic endpoints and insert the data directly from api landing page, using swagger
+if you need initial data to persist into the database, you can acces it inside library-api/data-to-persist
 ```
 
 ## 🤝 Collaborator
