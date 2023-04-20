@@ -6,16 +6,19 @@ import { ChakraProvider } from "@chakra-ui/react";
 import { theme } from "@/config/theme";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { AuthProvider } from "@/providers/AuthContext";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <DefaultSeo {...SEO} />
-      <ChakraProvider theme={theme}>
-        <Header />
-        <Component {...pageProps} />
-        <Footer />
-      </ChakraProvider>
+      <AuthProvider>
+        <ChakraProvider theme={theme}>
+          <Header />
+          <Component {...pageProps} />
+          <Footer />
+        </ChakraProvider>
+      </AuthProvider>
     </>
   );
 }
