@@ -9,6 +9,7 @@ import { BooksModule } from './books/books.module';
       type: 'sqlite',
       database: 'db/database.sqlite3',
       entities: ['dist/**/*.entity{.ts,.js}'],
+      autoLoadEntities: true,
       synchronize: true,
     }),
     AuthorsModule,

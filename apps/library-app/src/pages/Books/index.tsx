@@ -11,11 +11,11 @@ import {
 import type { NextPage } from "next";
 import Head from "next/head";
 
-const Authors: NextPage = ({ authors }: any) => {
+const Books: NextPage = ({ books }: any) => {
   return (
     <Container maxW={"8xl"}>
       <Head>
-        <title>Authors</title>
+        <title>Books</title>
       </Head>
       <Center my={10}>
         <Heading
@@ -26,12 +26,12 @@ const Authors: NextPage = ({ authors }: any) => {
           See our
           <Text as={"span"} color={"brand.300"}>
             {" "}
-            Best authors
+            Best books
           </Text>
         </Heading>
       </Center>
       <Grid templateColumns="repeat(3, 1fr)" gap={2}>
-        {authors.map((book: any, index: any) => {
+        {books.map((book: any, index: any) => {
           return (
             <GridItem w="auto" h="auto" key={index}>
               <BoxCard
@@ -49,10 +49,10 @@ const Authors: NextPage = ({ authors }: any) => {
 };
 
 export async function getServerSideProps() {
-  const res = await fetch(`http://localhost:3000/authors`);
-  const authors = await res.json();
+  const res = await fetch(`http://localhost:3002/books`);
+  const books = await res.json();
 
-  return { props: { authors } };
+  return { props: { books } };
 }
 
-export default Authors;
+export default Books;

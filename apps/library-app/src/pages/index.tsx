@@ -71,9 +71,9 @@ const Home: NextPage = ({ books, authors }: any) => {
 };
 
 export async function getServerSideProps() {
-  const resBooks = await fetch(`http://localhost:3000/books?limit=3`);
+  const resBooks = await fetch(`http://localhost:3002/books?limit=3`);
   const books = await resBooks.json();
-  const resAuthors = await fetch(`http://localhost:3000/authors?limit=3`);
+  const resAuthors = await fetch(`http://localhost:3002/authors?limit=3`);
   const authors = await resAuthors.json();
 
   return { props: { books, authors } };
