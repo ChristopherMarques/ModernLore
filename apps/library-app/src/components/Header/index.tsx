@@ -25,7 +25,11 @@ export default function Header() {
   const { user, userLogout } = useAuth();
   return (
     <>
-      <Box bg={useColorModeValue("brand.200", "brand.300")} px={10}>
+      <Box
+        bg={useColorModeValue("brand.200", "brand.300")}
+        px={10}
+        maxW={"100vw"}
+      >
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <Box fontWeight={800}>Logo</Box>
           <Flex alignItems={"center"}>

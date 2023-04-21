@@ -49,7 +49,7 @@ const Books: NextPage = ({ books }: any) => {
 };
 
 export async function getServerSideProps() {
-  const res = await fetch(`http://localhost:3002/books`);
+  const res = await fetch(`http://localhost:3001/books`);
   const books = await res.json();
 
   return { props: { books } };

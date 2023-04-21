@@ -19,7 +19,7 @@ const IMAGE =
 
 export default function HeroSection() {
   return (
-    <Container maxW={"8xl"}>
+    <Container maxW={"100vw"}>
       <Stack
         align={"center"}
         spacing={{ base: 8, md: 10 }}

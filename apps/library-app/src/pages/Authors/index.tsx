@@ -49,7 +49,7 @@ const Authors: NextPage = ({ authors }: any) => {
 };
 
 export async function getServerSideProps() {
-  const res = await fetch(`http://localhost:3002/authors`);
+  const res = await fetch(`http://localhost:3001/authors`);
   const authors = await res.json();
 
   return { props: { authors } };

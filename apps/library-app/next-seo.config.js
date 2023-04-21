@@ -1,11 +1,11 @@
 const seo = {
-  title: "MeiraT",
+  title: "ModernLore",
   description: "",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "",
-    site_name: "MeiraT",
+    site_name: "ModernLore",
     images: [],
   },
 };
