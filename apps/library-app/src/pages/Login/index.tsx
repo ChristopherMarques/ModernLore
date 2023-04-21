@@ -13,8 +13,6 @@ import {
   Flex,
   FormControl,
   FormLabel,
-  Image,
-  Center,
   useColorModeValue,
 } from "@chakra-ui/react";
 import { useRouter } from "next/router";
@@ -30,7 +28,7 @@ const Login = () => {
       const user = await userLogin(userData);
 
       if (user) {
-        router.push("/Books");
+        router.push("/Admin");
       }
     } catch (err) {
       setError("User or password is invalid");

@@ -7,20 +7,36 @@ import { theme } from "@/config/theme";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { AuthProvider } from "@/providers/AuthContext";
+import { Router, useRouter } from "next/router";
+import { useEffect, useState } from "react";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return (
-    <>
-      <DefaultSeo {...SEO} />
-      <AuthProvider>
-        <ChakraProvider theme={theme}>
-          <Header />
-          <Component {...pageProps} />
-          <Footer />
-        </ChakraProvider>
-      </AuthProvider>
-    </>
-  );
+  const router = useRouter();
+  const [showChild, setShowChild] = useState(false);
+  useEffect(() => {
+    setShowChild(true);
+  }, []);
+
+  if (!showChild) {
+    return null;
+  }
+
+  if (typeof window === "undefined") {
+    return <></>;
+  } else {
+    return (
+      <>
+        <DefaultSeo {...SEO} />
+        <AuthProvider>
+          <ChakraProvider theme={theme}>
+            {!router.pathname.includes("/Admin") && <Header />}
+            <Component {...pageProps} />
+            {!router.pathname.includes("/Admin") && <Footer />}
+          </ChakraProvider>
+        </AuthProvider>
+      </>
+    );
+  }
 }
 
 export default MyApp;
