@@ -24,10 +24,10 @@ The project should attend some features:
 - [x] Replace Users and Books
 - [x] Delete Users and Books
 - [x] A fully documented methods of API using swagger
+- [x] Login with firebase auth
 
 #### What I'm working on to implement
 
-- [] Login with firebase auth
 - [] A complete Dashboard to manage books and authors
 
 ## 🚀 Installing <Modern_Lore_Library>
@@ -48,7 +48,9 @@ yarn dev
 After run, you can use it following this steps:
 
 ```
-You can see documentation of api on http://localhost:3002/ and the webapp at http://localhost:3001/
+You can see documentation of api on http://localhost:3001/ and the webapp at http://localhost:3000/ to access dashboard you can use: 
+admin@admin.com 
+adminadmin
 ```
 
 ## 🤝 Collaborator
